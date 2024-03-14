@@ -1,0 +1,51 @@
+/* styles.css */
+
+
+.root {
+    -fx-background-color: #f0f0f0; /* Set background color */
+}
+
+/* Thumbnail Grid */
+.grid-pane {
+    -fx-alignment: center; /* Align thumbnails to the center */
+}
+
+/* Thumbnail Images */
+.image-view {
+    -fx-border-color: #ccc ccc; /* Add border color */
+    -fx-border-width: 1px; /* Set border width */
+    -fx-border-radius: 5px; /* Add border radius */
+    -fx-effect: drop shadow( gaussian , rgba(0,0,0,0.2) , 2,0,0,1 ); /* Add drop shadow */
+}
+
+/* Album Navigation Buttons */
+.h-box.button-box {
+    -fx-alignment: center; /* Align buttons to the center */
+}
+
+/* Full Image View */
+.v-box.image-box {
+    -fx-background-color: white; /* Set background color */
+    -fx-padding: 20px; /* Add padding */
+}
+
+/* Navigation Buttons in Full Image View */
+.h-box.button-box-full {
+    -fx-spacing: 20px; /* Set spacing between buttons */
+    -fx-alignment: center; /* Align buttons to the center */
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-radius: 5px; /* Add border radius */
+    -fx-background-radius: 5px; /* Add background radius */
+}
+
+/* Button Hover Effect */
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green background on hover */
+}
